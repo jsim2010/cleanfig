@@ -199,12 +199,14 @@ set expandtab
 set fillchars+=fold:\ 
 " Remove line count from text shown by fold.
 set foldtext=v:folddashes.getline(v:foldstart)
-set shell=powershell.exe
-set shellquote=
-set shellpipe=\|
-set shellredir=\|\ Out-File\ -Encoding\ UTF8
-set shellxquote=
-set shellcmdflag=-NoLogo\ -NoProfile\ -ExecutionPolicy\ RemoteSigned\ -Command
+" Testing out using nu as the shell.
+set shell=nu
+"set shell=powershell.exe
+"set shellquote=
+"set shellpipe=\|
+"set shellredir=\|\ Out-File\ -Encoding\ UTF8
+"set shellxquote=
+"set shellcmdflag=-NoLogo\ -NoProfile\ -ExecutionPolicy\ RemoteSigned\ -Command
 set shiftround
 set showbreak==>
 " Mode is shown in statusline.
