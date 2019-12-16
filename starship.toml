@@ -1,0 +1,30 @@
+add_newline = false
+
+[character]
+symbol = ":)"
+error_symbol = ":("
+use_symbol_for_status = true
+
+[directory]
+truncate_to_repo = false
+
+[git_branch]
+symbol = ""
+
+[git_status]
+conflicted = "~"
+conflicted_count.enabled = true
+ahead = "^"
+untracked_count.enabled = true
+modified_count.enabled = true
+renamed = "*"
+renamed_count.enabled = true
+deleted = "X"
+deleted_count.enabled = true
+
+[package]
+symbol = "@"
+style = "yellow"
+
+[rust]
+symbol = ""
