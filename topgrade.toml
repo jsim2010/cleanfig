@@ -1,0 +1,7 @@
+git_repos = [
+    "~/.config/configs",
+]
+
+[pre_commands]
+# Run first to ensure any updates of nu keep its "stable" features.
+"stable nu" = "cargo install-update-config nu --feature stable"
